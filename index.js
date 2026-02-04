@@ -34,7 +34,7 @@ for (let i = 0; i < posts.length; i++) {
   const post = posts[i]
 
   newsFeed.innerHTML += `
-<li>
+<li class="postCard">
     <div id="container">
         <div id="prof-head">
             <img id="profile-img" src="${post.avatar}">
@@ -61,7 +61,7 @@ for (let i = 0; i < posts.length; i++) {
 
 // posts.forEach(post => {
 //   newsFeed.innerHTML += `
-// <li>
+// <li class="postCard">
 //     <div id="container">
 //         <div id="prof-head">
 //             <img id="profile-img" src="${post.avatar}">
